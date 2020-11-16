@@ -1,18 +1,18 @@
-#pragma once
+#include <stdio.h>
+#include <stdlib.h>
 
-void create(){
-    
-
+void criar(){
+printf("Teste Create");
 }
 
-void read(){
-
+void ler(){
+printf("Teste Read");
 }
 
-void update(){
-
+void atualizar(){
+printf("Teste Update");
 }
 
-void remove(){
-
+void excluir(){
+printf("Teste Remove");
 }

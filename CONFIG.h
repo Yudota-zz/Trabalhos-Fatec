@@ -22,14 +22,23 @@ typedef struct{
 
 //PRODUTO
 typedef struct{
+    
+    char idProd[11];
+    char desc[21];
+    Fornecedor f;
+
+}Produto; //cont = 2
+
+typedef struct{
     char id[11];
     char nome[21];
 
-}Produto; //cont = 2
+}Categoria; //cont= 3
 
 Cliente     c[maxIndiceVetor];
 Fornecedor  f[maxIndiceVetor];
 Produto     p[maxIndiceVetor];
+Categoria   cat[maxIndiceVetor];
 
 //VAI SER USADO PARA VERIFICAR O TAMANHO DA ARRAY
 int cont[3];

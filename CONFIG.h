@@ -25,7 +25,7 @@ typedef struct{
     
     char idProd[11];
     char desc[21];
-    Fornecedor f;
+    Fornecedor fProd;
 
 }Produto; //cont = 2
 

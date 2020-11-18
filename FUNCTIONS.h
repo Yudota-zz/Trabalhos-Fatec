@@ -1,18 +1,56 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void criar(){
+//CRUD Cliente
+
+void criarCliente(){
 
 }
 
-void ler(){
+void pesquisarCliente(){
 
 }
 
-void atualizar(){
+void atualizarCliente(){
 
 }
 
-void excluir(){
+void excluirCliente(){
+
+}
+
+//CRUD Fornecedor
+
+void criarFornecedor(){
+
+}
+
+void pesquisarFornecedor(){
+
+}
+
+void atualizarFornecedor(){
+
+}
+
+void excluirFornecedor(){
+
+}
+
+//CRUD Produto
+
+void criarProduto(){
+
+}
+
+void pesquisarProduto(){
+
+}
+
+void atualizarProduto(){
+
+}
+
+void excluirProduto(){
 
 }
